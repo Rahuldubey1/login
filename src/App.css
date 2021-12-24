@@ -1,38 +1,128 @@
 .App {
   text-align: center;
+  color: #0bbdbd;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo1 {
+  height: 130px;
+  width: 130px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  margin-top: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.box {
+  max-width: 521px;
+  padding: 0px 40px 0px 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 10px;
+}
+
+
+.box h1 {
+  font-size: 47px;
+  margin-bottom: 0px !important;
+}
+@media only screen and (max-width: 600px) {
+  .box h1 {
+    font-size: 30px;
+    margin-left: 20px ;
+  }
+  .box h2 {
+    font-size: 18px !important;
+    margin-right: -25px;
+  }
+  .box {
+  padding: 0px 40px 0px 15px;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  }
+  a {
+    margin-right: -25px;
+  }
+  button {
+    margin-right: -20px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.box h2 {
+  font-size: 30px;
+  margin-top: 15px !important;
+  margin-bottom: 10px !important;
+}
+
+form {
+  box-sizing: border-box;
+  font-size: larger;
+  padding: 10px 0px 20px 0px;
+}
+
+.input {
+  width: 90%;
+  padding: 22px;
+  border-radius: 6px;
+  border:1px solid #0bbdbd;
+  font-size: large;
+}
+
+button {
+  background-color: #0bbdbd; 
+  border: none;
   color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+label {
+  float: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  float: right;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.text-center{
+  text-align: center !important;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.heading {
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+}
+
+.home {
+  text-align: center;
+    background: wheat;
+    padding: 40px;
+}
+
+span {
+  color: red;
 }
